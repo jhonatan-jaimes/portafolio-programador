@@ -1,0 +1,59 @@
+.contain {
+    width: 50vw;
+    min-height: 100vh;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+.titulo {
+    padding: 20px;
+}
+
+.containCard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardContain {
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.cardContain:hover
+{
+    background-color: rgb(255, 0, 255, .25);
+}
+.img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.gitRepo {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.boton {
+    padding: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.boton:hover {
+    background-color: rgb(255, 0, 255, .25);
+}

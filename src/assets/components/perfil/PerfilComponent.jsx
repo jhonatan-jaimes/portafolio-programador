@@ -2,7 +2,7 @@ import styles from "./Perfil.module.css"
 
 export const PerfilComponent = ({name, texto, img}) => {
     return (
-        <section className={styles.contain}>
+        <section className={styles.contain} id="perfil">
             <div className={styles.perfil}>
                 <div className={styles.iPerfil}>
                     <img src="foto-002.jpg" alt="foto" className={styles.imgPerfil}/>

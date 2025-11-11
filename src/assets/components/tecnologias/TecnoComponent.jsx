@@ -3,7 +3,7 @@ import styles from "./Tecno.module.css"
 
 export const TecnoComponent = () => {
     return (
-        <div className={styles.contain}>
+        <section className={styles.contain} id="tecnologias">
             <IconComponent img={"java.png"} name={"Java"} />
             <IconComponent img={"spring.png"} name={"Spring"} />
             <IconComponent img={"python.png"} name={"Python"} />
@@ -12,6 +12,6 @@ export const TecnoComponent = () => {
             <IconComponent img={"html.png"} name={"HTML"} />
             <IconComponent img={"css.png"} name={"CSS"} />
             <IconComponent img={"git.png"} name={"Git"} />
-        </div>
+        </section>
     )
 }
