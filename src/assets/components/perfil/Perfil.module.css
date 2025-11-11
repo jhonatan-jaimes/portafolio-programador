@@ -1,7 +1,7 @@
 .contain {
     width: 50vw;
     margin: auto;
-    height: 100vh;
+    min-height: 100vh;
     align-content: center;
 }
 
@@ -13,9 +13,8 @@
 }
 
 .iPerfil {
-    margin-top: 125px;
+    margin-top: 150px;
     width: 400px;
-    height: 400px;
     align-content: center;
 }
 
@@ -30,8 +29,7 @@
 
 
 .pPerfil {
-    margin-top: 125px;
+    margin-top: 150px;
     width: 400px;
-    height: 400px;
     align-content: center;
 }
