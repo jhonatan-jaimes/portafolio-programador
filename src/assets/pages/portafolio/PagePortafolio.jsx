@@ -2,11 +2,11 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router';
 import { HeaderComponent } from "../../components/header/HeaderComponent"
 import { PerfilComponent } from "../../components/perfil/PerfilComponent"
-import { ProyectComponent } from "../../components/proyectos/ProyecComponent"
+import { ProyecComponent } from "../../components/proyectos/ProyecComponent"
 import { TecnoComponent } from "../../components/tecnologias/TecnoComponent"
 
 const PagePortafolio = () => {
-    
+
     const location = useLocation(); // ← Ahora useLocation está definido
 
     useEffect(() => {
@@ -15,7 +15,7 @@ const PagePortafolio = () => {
             const element = document.getElementById(sectionId);
             if (element) {
                 setTimeout(() => {
-                    element.scrollIntoView({ 
+                    element.scrollIntoView({
                         behavior: 'smooth',
                         block: 'start'
                     });
@@ -29,7 +29,7 @@ const PagePortafolio = () => {
             <HeaderComponent />
             <PerfilComponent />
             <TecnoComponent />
-            <ProyectComponent />
+            <ProyecComponent />
         </section>
     )
 }

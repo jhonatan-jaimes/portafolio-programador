@@ -28,22 +28,22 @@
     color: inherit;
 }
 
-.cardContain:hover
-{
+.cardContain:hover {
     background-color: rgb(255, 0, 255, .25);
 }
+
 .img {
     width: 100%;
     object-fit: contain;
 }
 
 .gitRepo {
-    width: 200px;
+    width: 250px;
     text-align: center;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid;
-    margin: auto;
+    margin-bottom: 20px;
     text-decoration: none;
     color: inherit;
 }
