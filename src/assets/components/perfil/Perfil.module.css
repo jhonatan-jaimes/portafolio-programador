@@ -7,29 +7,25 @@
 
 .perfil {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .iPerfil {
     margin-top: 150px;
-    width: 400px;
+    width: 20vw;
     align-content: center;
+
 }
 
 .imgPerfil {
-    width: 20vw;
-    min-width: 225px;
-    height: 20vw;
-    min-height: 225px;
+    width: 272px;
+    min-width: 272px;
     border-radius: 100%;
+    object-fit: contain;
 }
 
 
 
 .pPerfil {
-    margin-top: 150px;
-    width: 400px;
+    width: 100%;
     align-content: center;
 }
