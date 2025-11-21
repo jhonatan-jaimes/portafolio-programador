@@ -4,6 +4,7 @@ import { HeaderComponent } from "../../components/header/HeaderComponent"
 import { PerfilComponent } from "../../components/perfil/PerfilComponent"
 import { ProyecComponent } from "../../components/proyectos/ProyecComponent"
 import { TecnoComponent } from "../../components/tecnologias/TecnoComponent"
+import { FooterComponent } from '../../components/footer/FooterComponent';
 
 const PagePortafolio = () => {
 
@@ -30,6 +31,7 @@ const PagePortafolio = () => {
             <PerfilComponent />
             <TecnoComponent />
             <ProyecComponent />
+            <FooterComponent />
         </section>
     )
 }

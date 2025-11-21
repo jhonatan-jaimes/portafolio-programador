@@ -1,0 +1,29 @@
+.contain{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    height: 50vh;
+    align-content: center;
+}
+
+.contDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.contactIt{
+    text-align: center;
+    min-width: 250px;
+    width: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: #c4c;
+}
