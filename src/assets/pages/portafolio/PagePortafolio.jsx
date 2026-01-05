@@ -5,6 +5,7 @@ import { PerfilComponent } from "../../components/perfil/PerfilComponent"
 import { ProyecComponent } from "../../components/proyectos/ProyecComponent"
 import { TecnoComponent } from "../../components/tecnologias/TecnoComponent"
 import { FooterComponent } from '../../components/footer/FooterComponent';
+import { HabiliComponent } from '../../components/habilidades/HabiliComponent';
 
 const PagePortafolio = () => {
 
@@ -31,6 +32,7 @@ const PagePortafolio = () => {
             <PerfilComponent />
             <TecnoComponent />
             <ProyecComponent />
+            <HabiliComponent />
             <FooterComponent />
         </section>
     )
