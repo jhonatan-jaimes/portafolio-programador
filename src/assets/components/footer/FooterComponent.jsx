@@ -10,7 +10,7 @@ export const FooterComponent = () => {
                 <div>
                 <h2>PORTAFOLIO</h2>
                 </div>
-                <div>
+                <div className={styles.contContac}>
                     <h3>Contacto</h3> <br />
                     <div className={styles.contactIt}><p>Telef:</p> <p className={styles.link}>3148466202</p> </div>
                     <div className={styles.contactIt}><p>Email: </p> <p className={styles.link}>jejo.arch@gmail.com</p> </div>

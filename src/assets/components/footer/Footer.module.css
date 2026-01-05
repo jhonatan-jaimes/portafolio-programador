@@ -11,13 +11,19 @@
     flex-wrap: wrap;
     margin: auto;
     justify-content: space-between;
-    width: 50vw;
+    width: 50%;
 }
+
+.contContac {
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+} 
 
 .contactIt{
     text-align: center;
     min-width: 250px;
-    width: 25vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,3 +33,4 @@
     text-decoration: none;
     color: #c4c;
 }
+
