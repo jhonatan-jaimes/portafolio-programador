@@ -13,7 +13,7 @@ export const HabiliComponent = () => {
                 <p>TRABAJO EN EQUIPO</p>
                 <p>PROACTIVO</p>
             </div>
-            <a href="/CV_Programador_2025a.pdf" download>
+            <a href="/cv_programador_jhonatan.pdf" download>
                 <button className={styles.botonDes}>Descargar PDF</button>
             </a>
         </section>
