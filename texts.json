@@ -1,0 +1,10 @@
+{
+  "name": "Jhonatan Ernesto Jaimes Ovallos",
+  "career": "Programador",
+  "title": "portafolio",
+  "perfil": "Desarrollador Full-Stack con una sólida base en ingeniería de software, especializado en diseñar y construir aplicaciones web completas. Experto en el desarrollo backend (APIs, servidores, bases de datos) y en el desarrollo frontend (interfaces de usuario modernas, responsivas y accesibles). Comprometido con la escritura de código limpio, eficiente y con una mentalidad orientada a la creación de productos digitales de calidad.",
+  "edsqDes": "EDSQ es una plataforma web gratuita que centraliza herramientas digitales simples y seguras para codificar y decodificar texto, acortar enlaces y generar códigos QR, pensada para optimizar la gestión de información de forma rápida y accesible.",
+  "edsqParFront": "El front-end de EDSQ está desarrollado con React (JavaScript) y React Router, ofreciendo una interfaz rápida, ligera y moderna, con navegación fluida entre secciones sin recargar la página. Su diseño es simple e intuitivo, enfocado en la usabilidad y el rendimiento, sin dependencias innecesarias.",
+  "edsqParbacke": "El backend de EDSQ fue desarrollado completamente por mí, incluyendo los métodos de encriptación, desencriptación y generación de hashes para el acortador de enlaces. La única funcionalidad externa utilizada es una biblioteca para la generación de imágenes QR, integrada para garantizar resultados rápidos y confiables.",
+  "obraCanti": "Cantidades de Obra es una aplicación en desarrollo creada con Java y Spring, que utiliza MySQL como base de datos, enfocada en la gestión y cálculo de cantidades de obra de forma estructurada y eficiente."
+}
