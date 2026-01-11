@@ -8,29 +8,45 @@
 
 .titulo {
     padding: 20px;
-    color: #e4e;
+    color: var(--orange);
 }
 
 .containCard {
-    width: 100%;
+    max-width: 100%;
+    min-width: 240px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .cardContain {
-    width: 400px;
-    text-align: center;
+    width: 50vw;
+    min-width: calc(240px - 20px);
     padding: 20px;
     border-radius: 10px;
     border: 1px solid;
     margin: auto;
     text-decoration: none;
     color: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parCard {
+    text-align: left;
+    width: calc(30vw - 30px);
+    min-width: calc(240px - 20px);
+}
+
+.imgCard {
+    width: calc(20vw - 30px);
+    min-width: calc(240px - 20px);
 }
 
 .cardContain:hover {
-    background-color: rgb(255, 0, 255, .25);
+    transform: scale(1.02);
+    background-color: var(--select);
 }
 
 .img {
@@ -49,6 +65,12 @@
     color: inherit;
 }
 
+.iconContain {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: calc(240px - 20px);
+}
+
 .boton {
     padding: 20px;
     text-decoration: none;
@@ -56,5 +78,10 @@
 }
 
 .boton:hover {
-    background-color: rgb(255, 0, 255, .25);
+    background-color: var(--select);
+}
+
+.imgIcon {
+    width: 32px;
+    height: 32px;
 }

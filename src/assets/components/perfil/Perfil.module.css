@@ -5,6 +5,8 @@
     align-content: center;
 }
 
+
+
 .perfil {
     width: 100%;
 }
@@ -28,4 +30,8 @@
 .pPerfil {
     width: 100%;
     align-content: center;
+}
+
+.pPerfil h2 {
+    color: var(--orange);
 }

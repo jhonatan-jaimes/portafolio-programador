@@ -1,6 +1,6 @@
 .contain{
     width: 100%;
-    background-color: black;
+    background-color: #000;
     text-align: center;
     height: 50vh;
     align-content: center;
@@ -31,6 +31,6 @@
 
 .link{
     text-decoration: none;
-    color: #c4c;
+    color: var(--orange);
 }
 

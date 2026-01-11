@@ -1,3 +1,6 @@
 :root {
-  color-scheme: dark;
+  font-size: 18px;
+  --orange: #e94;
+  --blue-s: #49e;
+  --select: #e0e4;
 }

@@ -19,7 +19,7 @@
 
 .titulo {
   padding: 20px;
-  color: #e4e;
+  color: var(--orange);
 }
 
 .botonDes{
@@ -31,5 +31,6 @@
 }
 
 .botonDes:hover {
-  background-color: rgb(255, 0, 255, .25);
+  transform: scale(1.08);
+  background-color: var(--select);
 }
